@@ -2,6 +2,7 @@ import './App.css'
 import Header from "./components/header"
 import Hero from "./components/Hero"
 import Footer from "./components/footer"
+// import Hero{ Header, Footer } from "./components/Hero"
 
 
 function App() {

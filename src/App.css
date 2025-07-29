@@ -39,27 +39,114 @@ body {
     padding-top: 100px;
 }
 
-.text1{
-    font-weight:100;
+.text1 {
+    font-weight: 100;
     letter-spacing: 2px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.text2{
+
+.text2 {
     font-family: "Didot", serif;
     font-weight: 200;
     font-size: 60px;
+    padding-top: 20px;
 }
-.text3{
-    /* padding-bottom: 200px; */
-    /* margin-bottom: 20px; */
+
+.text3 {
     font-size: 270px;
+    line-height: 0.8;
+}
+
+/*  */
+.banner-text {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upto {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.fifty {
+    font-size: 250px;
+    font-weight: normal;
+    line-height: 0.9;
+}
+
+.off {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* --- Responsive Media Queries --- */
+@media (max-width: 992px) {
+    .fifty {
+        font-size: 150px;
+    }
+
+    .upto,
+    .off {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fifty {
+        font-size: 100px;
+    }
+
+    .upto,
+    .off {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fifty {
+        font-size: 70px;
+    }
+
+    .upto,
+    .off {
+        font-size: 18px;
+    }
+
+    .banner-text {
+        flex-direction: column;
+        gap: 0;
+    }
 }
 
 
+/* btnShop CSS */
+.btnShop {
+    background-color: transparent;
+    border: 1px solid white;
+    word-spacing: 2px;
+    width: 180px;
+    color: white;
+}
 
+a {
+    color: white;
+}
 
+a:hover {
+    color: rgb(163, 67, 67);
+}
 
-
+.btnShop:hover {
+    background-color: beige;
+    color: black;
+    transform: scale(1.1);
+    border: none;
+    /* transition: all; */
+}
 
 
 
