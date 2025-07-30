@@ -7,7 +7,7 @@ const Hero = () => {
         <>
 
             <section>
-                <div className="img1 ">
+                <div className="img1 container-fluid">
                     <div>
                         <p className="date1">10/04/14 - 10/05/14</p>
                     </div>

@@ -1,55 +1,15 @@
-// function Header() {
-//     return <nav className=" navbar navbar-expand-sm">
-//         {/* <div> */}
-//             <div className="container-fluid p-4 navMain">
-//                 <div className="fs-1 textLogo navbar-brand">GRANADA</div>
-            
-//             <div className="d-flex collapse navbar-collapse justify-content-between ">
-//                 <ul className="navbar-nav me-auto ">
-//                     <li className="nav-item">
-//                         <a href="#" className="nav-link"></a> HOME
-//                     </li>
-//                     <li className="nav-item">
-//                         <a href="#" className="nav-link"></a> HOME
-//                     </li>
-//                     <li className="nav-item">
-//                         <a href="#" className="nav-link"></a> HOME
-//                     </li>
-//                     <li className="nav-item">
-//                         <a href="#" className="nav-link"></a> HOME
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     </nav>
-
-// }
-// {/* <img src="/src/assets/react.svg" alt="Logo" /> */ }
-
-// export default Header
-
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 import { FaShoppingBag, FaUser, FaSearch } from "react-icons/fa";
 
 const Header = () => {
   return (
+    <>
+    <header className="header container-fluid">
     <nav className="navbar navbar-expand-lg py-3 navMain">
       <div className="container">
-
         <a className="navbar-brand fw-bold fs-2 textLogo" href="#">
           GRANADA
         </a>
-
         <button
           className="navbar-toggler"
           type="button"
@@ -93,6 +53,8 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </header>
+    </>
   );
 };
 
